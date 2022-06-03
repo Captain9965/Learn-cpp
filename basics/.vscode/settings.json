@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "charconv": "cpp",
+        "*.tcc": "cpp",
+        "iostream": "cpp"
+    }
+}

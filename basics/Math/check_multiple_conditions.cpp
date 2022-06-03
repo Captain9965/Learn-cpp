@@ -1,0 +1,3 @@
+/* 
+This is a technique used to find whether multiple conditions have been met
+*/
