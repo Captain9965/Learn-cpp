@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
      
-    string line = "GeeksForGeeks is a must try";
+    string line = "{\"Temperature\":\"50\",\"Humidity\":\"50\"}";
      
     // Vector of string to save tokens
     vector <string> tokens;
@@ -20,7 +20,7 @@ int main()
     string intermediate;
      
     // Tokenizing w.r.t. space ' '
-    while(getline(check1, intermediate, ' '))
+    while(getline(check1, intermediate,','))
     {
         tokens.push_back(intermediate);
     }

@@ -40,9 +40,8 @@ std::vector<std::string> tokenize(
 // Driver Code
 int main()
 {
-	const std::string str = "Break string\
-				a,spaces,and,commas";
-	const std::regex re(R"([\s|,]+)");
+	const std::string str = "{\"Temperature\":\"50\",\"Humidity\":\"50\"}";
+	const std::regex re(R"([\s|c,]+)");
 
 	// Function Call
 	const std::vector<std::string> tokenized =
