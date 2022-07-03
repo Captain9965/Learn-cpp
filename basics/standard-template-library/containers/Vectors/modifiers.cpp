@@ -38,19 +38,21 @@ int main(){
         marks2.push_back(i*4);
     }
     printvector(marks);
-    //using assign:
-    marks.assign(10,4);
-    cout << "\nafter assign(10,4)" << endl;
-    printvector(marks);
-    marks.pop_back();
-    cout << "After pop_back "<< endl;
-    printvector(marks);
-    marks.insert(marks.begin() + 4, 10);
-    cout << "After insert(marks.begin() + 4, 10)" << endl;
-    printvector(marks);
-    marks.erase(marks.begin()+4);
+    cout << "size->" << marks.size() << endl;
+    // //using assign:
+    // marks.assign(10,4);
+    // cout << "\nafter assign(10,4)" << endl;
+    // printvector(marks);
+    // marks.pop_back();
+    // cout << "After pop_back "<< endl;
+    // printvector(marks);
+    // marks.insert(marks.begin() + 4, 10);
+    // cout << "After insert(marks.begin() + 4, 10)" << endl;
+    // printvector(marks);
+    marks.erase(marks.end() - 1);
     cout << "After erase(marks.begin() + 4)" << endl;
     printvector(marks);
+    cout << "size->" << marks.size() << endl;
     marks.swap(marks2);
     cout << "After swap(marks2): " << endl;
     printvector(marks);
